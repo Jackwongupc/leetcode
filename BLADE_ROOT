@@ -1,0 +1,11 @@
+cc_config(
+    extra_incs = [
+        './'
+    ],
+    cppflags = [
+        '-DHAVE_CONFIG_H',
+    ],
+    cxxflags = [
+        '-std=c++11'
+    ]
+)
